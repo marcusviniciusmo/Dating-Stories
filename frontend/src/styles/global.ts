@@ -2,6 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   :root {
+    --primaryColor: #9E2320;
+    --secondaryColor: #F3DBC5;
     font-size: 62.5%; /* 10px = 1rem */
   }
 
