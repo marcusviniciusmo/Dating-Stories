@@ -4,10 +4,6 @@ import { routes } from '../../routes/routes';
 import { HomeContainer, StoriesButton } from './styles';
 import Cover from '../../assets/Cover/Cover.png';
 
-export interface HomeContainerProps {
-  background: string;
-}
-
 export function Home() {
   const [hearts, setHearts] = useState<string[]>([]);
 

@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import type { HomeContainerProps } from '.';
+import type { HomeContainerProps } from '../../types/Home';
 
 const FloatUp = keyframes`
   0% {
